@@ -1,5 +1,5 @@
 debugger;
-function writeCards(stringNames, eventName){
+function writeCards(stringNames="", eventName){
     for(let i = 0; i < stringNames.length; i++){
         let x = (`Thank you, ${stringNames[i]}, for the wonderful ${eventName} gift!`);
         myNewArray.push(x);
